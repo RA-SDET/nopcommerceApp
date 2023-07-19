@@ -20,3 +20,8 @@ password = admin
 fsdvsd = wefsdvfdesf
 frgdsfvs = rgfwer45trty
 drghtdg = ghert645tergf
+
+[section3 added inside github]
+fsdvsd = wefsdvfdesf
+frgdsfvs = rgfwer45trty
+drghtdg = ghert645tergf
