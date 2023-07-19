@@ -1,0 +1,22 @@
+
+
+# Now, pass browser name as argument in command line, using any 1 code line in command line frm below.
+# pytest -v -s testCases/test_login.py --browser chrome
+# pytest -v -s testCases/test_login.py --browser firefox
+# pytest -v -s testCases/test_login.py --browser edge
+# pytest -v -s testCases/test_login.py --browser ie
+
+
+# install package(plug-in)  pytest-xdist using pip
+Now type any below code in command line. Use any 1 code line in command line
+pytest -v -s -n=2 testCases/test_login.py --browser chrome
+pytest -v -s -n=2 testCases/test_login.py 
+
+here -n=2 means u have 2 tests in yr file and u want to run them parallely
+
+#install package(plug-in) pytest-html using pip
+pytest -v -s --html=Reports/report.html testCases/test_login.py
+                   #RELATIVE PATH to Reports folder and file inside
+
+
+

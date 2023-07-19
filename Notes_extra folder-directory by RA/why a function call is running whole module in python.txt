@@ -1,0 +1,34 @@
+Q why a function call is running whole module in python
+Q When I import my module in python, it automatically runs all of the
+defined functions inside of it. How do I prevent it from auto executing
+ my functions, but still allow me to call them in my main script?
+
+A: If your module looks something like this:
+def some_function():
+	some_code()
+
+def some_other_function():
+	some_other_code()
+
+some_more_code()
+even_more_code()
+
+# then some_more_code() and even_more_code() will run when you import the module.
+# To avoid that, ue below code:
+def some_function():
+	some_code()
+
+def some_other_function():
+	some_other_code()
+
+if __name__ == '__main__':
+	some_more_code()
+	even_more_code() 
+
+# harry bhai also explained this in advanced python video
+# listen to audio recording (Why a Fn. call is running whole module & its Solution.m4a) by RA
+
+
+
+
+

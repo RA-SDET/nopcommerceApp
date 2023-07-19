@@ -1,0 +1,15 @@
+# see below link to understand
+PASSED      50%   in terminal   in pytest results
+
+link-> https://stackoverflow.com/questions/49738081/whats-the-meaning-of-the-percentages-displayed-for-each-test-on-pytest
+
+--------------------------------------------------------------------------------------------------
+# see->  python code with notes(Desktop)\\Ch.Data Driven Testing using Excel
+#..before creating/coding  'XLUtils.py' file
+
+# complete path to above folder->
+C:\Users\ADMIN\Desktop\python code with notes(Desktop)\Ch.c. Data Driven Testing using Excel
+
+--------------------------------------------------------------------------------------------------
+
+

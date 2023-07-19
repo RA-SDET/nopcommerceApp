@@ -1,0 +1,56 @@
+What is Python package?
+
+A python package is a collection of modules. Modules that are related to each other
+are mainly put in the same package.
+            When a module from an external package is required in a program, that
+package can be imported and its modules can be put to use, see example below.
+(e.g. see code line "from pageObjects.LoginPage import LoginPage" in "test_login.py" file).
+
+IN CURRENT PROJECT:
+pageObjects is a Python package
+testCases is a Python package
+utilities is a Python package
+----------------------------------------------------------------
+
+CURRENT PROJECT uses selenium version 4.8.3
+documentation of this version at ->
+https://selenium-python.readthedocs.io/locating-elements.html#locating-hyperlinks-by-link-text
+----------------------------------------------------------------
+
+CURRENT PROJECT uses pytest version 7.3.1
+documentation of this version at ->
+https://pytest.org/en/7.3.x/announce/release-7.3.1.html
+
+https://docs.pytest.org/en/6.2.x/fixture.html
+
+2 pdf tutorial files in folder-> C:\Users\ADMIN\Desktop\selenium with desktop
+-------------------------------------------------------------------------
+
+automation tip- always name yr testcases starting with "test_" or ending with "_test"
+so, that pytest can identify them as tests and run them as tests
+---------------------------------------------------------------------------
+
+pycharm tip-place cursor on an element/object/class then press below key
+combination on keyboard to see its usage in project, relation/links/called by/calling/passing parameter etc is shown
+Ctrl + Alt + F7
+relation/links/called by/calling/passing parameter etc are shown
+--------------------------------------------------------------------------
+
+pycharm & VS CODE tip- how to indent a block of code in pycharm/vs code
+While in the editor, select the necessary code fragment and press Tab once
+ for 1 tab space indent and so on
+--------------------------------------------------------------------------
+
+How do I jump between Windows in Windows?
+
+Press and hold the [Alt] key > Click the [Tab] key once.
+A box with screen shots representing all of the open applications will appear.
+-----------------------------------------------------------------------
+
+
+
+
+
+
+
+

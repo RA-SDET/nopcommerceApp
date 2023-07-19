@@ -1,0 +1,22 @@
+SYNTAX OF config.ini file shown below:
+
+
+comment starts with ;
+;This is a comment
+
+there are many sections in it, sections are specified
+under square bracket [], each section contains key value pairs, see below e.g.
+in below e.g. password is key(or property), admin is value,
+[common info] is a section with section name 'common info'
+
+syntax e.g.
+
+[common info]
+baseURL = https://admin-demo.nopcommerce.com/
+username = admin@yourstore.com
+password = admin
+
+[section2]
+fsdvsd = wefsdvfdesf
+frgdsfvs = rgfwer45trty
+drghtdg = ghert645tergf
